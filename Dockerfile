@@ -1,4 +1,5 @@
 FROM node:latest
+USER 10014
 EXPOSE 3000
 WORKDIR /app
 ADD file.tar.gz /app/
